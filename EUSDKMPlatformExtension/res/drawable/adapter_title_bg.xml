@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <!-- 边缘线的宽度和颜色 -->
+    <stroke
+        android:width="1px"
+        android:color="#7d7a7a" />
+
+    <!-- 渐变色设置 -->
+    <gradient
+        android:angle="270"
+        android:endColor="#e7141a"
+        android:startColor="#f06e72" />
+    <!-- 设置四个角的角度 -->
+    <corners
+        android:topLeftRadius="10dp"
+        android:topRightRadius="10dp" />
+
+</shape>

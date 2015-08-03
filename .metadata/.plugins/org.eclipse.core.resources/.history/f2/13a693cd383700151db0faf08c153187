@@ -1,0 +1,5 @@
+package common.copy;
+
+public interface IAddictionPrevention {
+	 void addictionPrevention(GyyxConfigParameters config,String userId,GyyxListener listener);
+}

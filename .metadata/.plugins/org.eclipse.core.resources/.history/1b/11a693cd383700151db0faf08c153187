@@ -1,0 +1,6 @@
+package common.copy;
+
+public interface IRealNameSdkAdapter {
+ void realNameRegister(GyyxConfigParameters config,String userId,GyyxListener listener);
+ 
+}

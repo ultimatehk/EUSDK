@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="cn.gyyx.extension.util.RHelper"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.utils.RHelper"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.crashreporter.DeviceInfo"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.utils.FileUtil"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.crashreporter.CrashLogCallBack"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.utils.ProgressbarHelper"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.utils.VersionUtil"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.utils.RestResult"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.utils.SharePrefHelper"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.crashreporter.crashProperty"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.utils.MD5"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.utils.BASE64.BASE64Decoder"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.utils.LogUtil"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.utils.Log"/>
+<fullyQualifiedTypeName name="cn.eugames.platform.module.EUSDKExtract"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.utils.MethodLogUtil"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.crashreporter.CrashReporter"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.common.ISetExtendListener"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.common.IRealNameSdkAdapter"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.utils.ConfigUtils"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.common.EUSDKBaseAdapter"/>
+<fullyQualifiedTypeName name="android.media.effect.EffectUpdateListener"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.common.EUSDKLogRecord"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.common.IAddictionPrevention"/>
+<fullyQualifiedTypeName name="android.widget.Toast"/>
+<fullyQualifiedTypeName name="cn.eugames.platform.EUSDKUnify"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.utils.Utils"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.common.EUSDKListener"/>
+<fullyQualifiedTypeName name="cn.eugames.extension.common.EUSDKConfigParameters"/>
+</qualifiedTypeNameHistroy>

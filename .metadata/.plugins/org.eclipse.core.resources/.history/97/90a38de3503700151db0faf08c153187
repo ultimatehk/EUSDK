@@ -1,0 +1,10 @@
+/**
+ * 实名注册接口，360必接
+ * @author huangke
+ */
+package cn.eugames.extension.common;
+
+public interface IRealNameSdkAdapter {
+ void realNameRegister(GyyxConfigParameters config,String userId,GyyxListener listener);
+ 
+}

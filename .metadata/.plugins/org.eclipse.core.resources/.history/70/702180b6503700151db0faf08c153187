@@ -1,0 +1,9 @@
+/**
+ * 防沉迷接口，360必备
+ * @author Administrator
+ */
+package cn.eugames.extension.common;
+
+public interface IAddictionPrevention {
+	 void addictionPrevention(GyyxConfigParameters config,String userId,GyyxListener listener);
+}

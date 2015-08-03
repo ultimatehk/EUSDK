@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="adapter_dialog_white" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowBackground">@color/adapter_transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+
+    <color name="adapter_transparent">#00000000</color>
+
+    <string name="btn_ok">确\t定</string>
+    <string name="dialog_title">提\t\t示</string>
+    <string name="dialog_content_first">\t\t检测到您的设备中运行非法程序<g id="part1">%1$s</g>，请停止使用。</string>
+    <string name="dialog_content_second">\t\t检测到非法程序<g id="part1">%1$s</g>持续运行，5秒后将关闭游戏程序。</string>
+    <string name="dialog_content_start">\t\t检测到非法程序<g id="part1">%1$s</g>运行，请关闭后重新启动游戏。</string>
+
+    <style name="gydialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:backgroundDimEnabled">false</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+</resources>
