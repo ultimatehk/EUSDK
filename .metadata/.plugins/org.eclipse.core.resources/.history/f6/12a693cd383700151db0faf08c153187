@@ -1,5 +1,0 @@
-package common.copy;
-
-public interface ISetExtendListener {
-	void setExtendListener(String type,GyyxListener listener);
-}
