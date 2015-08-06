@@ -198,6 +198,10 @@ public abstract class EUSDKBaseAdapter implements IEuSdkAdapter,
 		return true;
 	}
 
+	/**
+	 * 卸载监听，预留功能
+	 * @param context
+	 */
 	public void initServer(Context context) {
 		// Intent intent = new Intent(context, UninstallService.class);
 		// context.startService(intent);
@@ -234,6 +238,7 @@ public abstract class EUSDKBaseAdapter implements IEuSdkAdapter,
 			header.put("other_params",
 					Utils.getItem(uploadTokenExtendMap, "other_params"));
 		}
+		//clientId和clentKey仅与游戏相关
 		header.putAll(LogUtil.getSignInformation(config.getClientKey(),
 				"/gateway/user/prelogin/?", header));
 		RestResult restResult = LogUtil.sendHttp(

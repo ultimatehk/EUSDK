@@ -194,6 +194,7 @@ public class LogUtil {
 		param.put("sdk_version", VersionUtil.getVersion());
 		param.put("sign",
 				Utils.sign(url + Utils.signString(param), signKey, "UTF-8"));
+		//采用md5签名方式
 		param.put("sign_type", Utils.SIGN_TYPE);
 		return param;
 	}

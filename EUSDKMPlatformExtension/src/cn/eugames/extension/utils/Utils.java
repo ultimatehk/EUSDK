@@ -57,7 +57,12 @@ public class Utils {
 	private static boolean DEBUG = true;
 
 	private static SSLContext sslContext = null;
-
+	
+	/**
+	 * 获取运营商信息
+	 * @param context
+	 * @return
+	 */
 	public static String getOperators(Context context) {
 		String operators = "";
 		try {
@@ -92,7 +97,12 @@ public class Utils {
 		}
 		return operators;
 	}
-
+	
+	/**
+	 * 获取设备分辨率
+	 * @param context
+	 * @return
+	 */
 	public static String getResolution(Context context) {
 		DisplayMetrics display = context.getResources().getDisplayMetrics();
 		SCREEN_WIDTH = display.widthPixels;
@@ -104,7 +114,11 @@ public class Utils {
 		}
 		return SCREEN_HEIGHT + "*" + SCREEN_WIDTH;
 	}
-
+	/**
+	 * 获取设备IMEI码
+	 * @param context
+	 * @return
+	 */
 	public static String getimei(Context context) {
 		TelephonyManager tm = (TelephonyManager) context
 				.getSystemService(Context.TELEPHONY_SERVICE);
@@ -214,7 +228,12 @@ public class Utils {
 		}
 		return sb.toString();
 	}
-
+	
+	/**
+	 * 编码请求串
+	 * @param params
+	 * @return
+	 */
 	public static String encodeQueryString(HashMap<String, String> params) {
 		// TODO Auto-generated method stub
 		List<String> keys = new ArrayList<String>(params.keySet());
@@ -241,7 +260,14 @@ public class Utils {
 
 		return prestr;
 	}
-
+	
+	/**
+	 * 发送请求
+	 * @param method
+	 * @param url
+	 * @param query
+	 * @return
+	 */
 	public static RestResult euApiRequest(String method, String url,
 			String query) {
 		RestResult result = new RestResult();
@@ -295,7 +321,12 @@ public class Utils {
 				+ "\nContent is " + result.getContent());
 		return result;
 	}
-
+	
+	/**
+	 * 获取设备可用内存
+	 * @param activity
+	 * @return
+	 */
 	public static String getTotalMemory(Context activity) {
 		long initial_memory = 0;
 		Method _readProclines = null;
@@ -334,12 +365,23 @@ public class Utils {
 		}
 		return Formatter.formatFileSize(activity, initial_memory);
 	}
-
+	
+	/**
+	 * 获取商品信息
+	 * @param obligate
+	 * @param key
+	 * @return
+	 */
 	public static String getItem(Map obligate, String key) {
 		return (String) obligate.get(key) != null ? (String) obligate.get(key)
 				: "";
 	}
-
+	
+	/**
+	 * 获取批次号信息
+	 * @param context
+	 * @return
+	 */
 	public static String getBatchConfigMsg(Context context) {
 		String batchNo = "0";
 		try {
@@ -357,14 +399,24 @@ public class Utils {
 		}
 		return batchNo;
 	}
-
+	
+	/**
+	 * 获取MAC地址
+	 * @param context
+	 * @return
+	 */
 	public static String getMacAddr(Context context) {
 		WifiManager wifi = (WifiManager) context.getSystemService("wifi");
 		WifiInfo info = wifi.getConnectionInfo();
 		String macAddress = info.getMacAddress();
 		return macAddress == null ? "" : macAddress;
 	}
-
+	
+	/**
+	 * 封装Toast,使之可于UI线程运行
+	 * @param context
+	 * @param msg
+	 */
 	public static void showToast(final Context context, final String msg) {
 		((Activity) context).runOnUiThread(new Runnable() {
 
